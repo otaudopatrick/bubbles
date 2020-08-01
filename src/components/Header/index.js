@@ -9,7 +9,7 @@ function Header() {
   }
   return (
     <Container>
-      <img src={process.env.PUBLIC_URL + 'img/logo.png'} style={imageStyle} />
+      <img src={process.env.PUBLIC_URL + '/img/logo.png'} style={imageStyle} />
       <Button
         type={"button"}
         name={'Sign up'}
