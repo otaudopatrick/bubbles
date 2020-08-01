@@ -7,7 +7,7 @@ import Bubbles from '../Bubbles';
 
 function MainContent() {
   return (
-    <Container pathImage = {process.env.PUBLIC_URL + 'img/background.png'}>
+    <Container pathImage = {process.env.PUBLIC_URL + '/img/background.png'}>
       <Header/>
       <Main/>
       <Sidebar/>
