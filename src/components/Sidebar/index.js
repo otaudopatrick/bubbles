@@ -17,22 +17,22 @@ function Sidebar() {
   }
   return (
     <Container>
-      <MenuIcon src={process.env.PUBLIC_URL + 'img/menu.png'} />
+      <MenuIcon src={process.env.PUBLIC_URL + '/img/menu.png'} />
       <SocialLinks>
         <HelperIcon
-          pathName={process.env.PUBLIC_URL + 'img/fb.png'}
+          pathName={process.env.PUBLIC_URL + '/img/fb.png'}
           style={SocialIconStyle}
           alt={'Facebook'}
           title={'Facebook'}
         />
         <HelperIcon
-          pathName={process.env.PUBLIC_URL + 'img/ig.png'}
+          pathName={process.env.PUBLIC_URL + '/img/ig.png'}
           style={SocialIconStyle}
           alt={'Instagram'}
           title={'instagram'}
         />
         <HelperIcon
-          pathName={process.env.PUBLIC_URL + 'img/tw.png'}
+          pathName={process.env.PUBLIC_URL + '/img/tw.png'}
           style={SocialIconStyle}
           alt={'Twitter'}
           title={'Twitter'}
@@ -40,13 +40,13 @@ function Sidebar() {
       </SocialLinks>
       <UsefulLinks>
         <HelperIcon
-          pathName={process.env.PUBLIC_URL + 'img/share.png'}
+          pathName={process.env.PUBLIC_URL + '/img/share.png'}
           style={UsefulIconStyle}
           alt={'Compartilhar'}
           title={'Compartilhar'}
         />
         <HelperIcon
-          pathName={process.env.PUBLIC_URL + 'img/info.png'}
+          pathName={process.env.PUBLIC_URL + '/img/info.png'}
           style={UsefulIconStyle}
           alt={'Informações'}
           title={'Informações'}
