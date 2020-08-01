@@ -4,7 +4,7 @@ import { Container, MenuIcon, SocialLinks, UsefulLinks } from './styles';
 
 function Sidebar() {
   const SocialIconStyle = {
-    width: '25px',
+    width: '30px',
     margin: '5px auto',
     display:'block',
     cursor: 'pointer',

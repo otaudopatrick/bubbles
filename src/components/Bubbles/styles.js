@@ -7,7 +7,7 @@ export const Container = styled.div`
   align-items:center;
   justify-content:space-around;
   position:absolute;
-  bottom:0; 
+  bottom: -70px;
 `;
 
 const bubbleAnimation = keyframes`
